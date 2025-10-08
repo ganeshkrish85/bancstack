@@ -1,6 +1,4 @@
-// convex/migrations.ts
 import { Migrations } from '@convex-dev/migrations';
-
 import { components } from './_generated/api';
 import type { DataModel, Doc } from './_generated/dataModel';
 

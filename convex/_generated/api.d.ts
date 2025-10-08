@@ -10,6 +10,7 @@
 
 import type * as admin from "../admin.js";
 import type * as auth from "../auth.js";
+import type * as autumn from "../autumn.js";
 import type * as avatars from "../avatars.js";
 import type * as http from "../http.js";
 import type * as migrations from "../migrations.js";
@@ -32,6 +33,7 @@ import type {
 declare const fullApi: ApiFromModules<{
   admin: typeof admin;
   auth: typeof auth;
+  autumn: typeof autumn;
   avatars: typeof avatars;
   http: typeof http;
   migrations: typeof migrations;
@@ -2237,4 +2239,5 @@ export declare const components: {
       >;
     };
   };
+  autumn: {};
 };

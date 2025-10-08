@@ -1,7 +1,5 @@
 import { v } from 'convex/values';
-
 import { createAuth } from '@/lib/auth';
-
 import { mutation, query } from './_generated/server';
 import { betterAuthComponent } from './auth';
 

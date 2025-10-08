@@ -52,11 +52,11 @@ const technologies = [
     url: 'https://ui.shadcn.com',
   },
   {
-    name: 'Polar.sh',
+    name: 'Autumn',
     description:
       'Modern payment and subscription infrastructure for developers',
     category: 'Payment Integration',
-    url: 'https://polar.sh',
+    url: 'https://useautumn.com',
   },
 ];
 

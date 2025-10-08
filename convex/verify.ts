@@ -1,4 +1,3 @@
-// convex/verify.ts
 import { query } from './_generated/server';
 
 export const anyDeprecatedUserFieldsLeft = query(async (ctx) => {
